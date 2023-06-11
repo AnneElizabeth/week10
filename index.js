@@ -4,6 +4,7 @@ function addBook() {
     let bookTitle = document.querySelector('form #bookTitle')
     let bookAuthor = document.querySelector('form #bookAuthor')
     let bookRecommend = document.querySelector('form #bookRecommend')
+    let form = document.querySelector('form')
     let newBook = bookTable.innerHTML +=
         `
             <tr>
